@@ -1,0 +1,16 @@
+{
+  "name": "red-contrib-alexa-tts",
+  "version": "1.0.0",
+  "description": "Sends speach commands to Alexa by using pre-stored cookies as authorization",
+  "main": "alexa-tts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+  "node-red" : {
+    "nodes": {
+        "alexa-say": "alexa-tts.js"
+    }
+}
+}
